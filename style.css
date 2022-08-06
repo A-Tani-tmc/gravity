@@ -1,0 +1,91 @@
+/* This is a 'stylesheet'. 
+It defines how the elements appear when they are rendered by the browser. */
+
+html {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: monospace;
+  height: 100%;
+  justify-content: center;
+}
+
+.button {
+  border-radius: 8px;
+  font-size: 20pt;
+  height: 50px;
+  width: 200px;
+  margin: 2px;
+}
+
+button:active{
+  transform: translateY(1px);
+}
+
+#title{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-shadow: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px black;
+  border-left: thick solid red;
+  padding-left: 10px;
+}
+
+#big-title-button{
+  position: absolute;
+  border-radius: 15px;
+  height: 50px;
+  width: 85px;
+  left: 10px;
+  top: 95px;
+  background-color: black;
+  box-shadow: 2px 2px 2px rgb(255, 6, 201);
+  font-size: 10pt;
+  color: antiquewhite;
+}
+
+#big-title-button:active{
+  transform: translateY(1px);
+}
+
+#small-title-button{
+  position: absolute;
+  border-radius: 15px;
+  height: 50px;
+  width: 85px;
+  left: 100px;
+  top: 95px;
+  background-color: black;
+  box-shadow: 2px 2px 2px rgb(5, 152, 244);
+  font-size: 10pt;
+  color: antiquewhite;
+}
+
+#small-title-button:active{
+  transform: translateY(1px);
+}
+
+#img1{
+  position: absolute;
+  block-size: 300px;
+  top: -300px;
+}
+
+#divSushi{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 258px;
+  font-size: 18px;
+  border-top: solid rgb(97, 93, 93);
+  border-left: solid rgb(97, 93, 93);
+  border-bottom: solid rgb(97, 93, 93);
+  border-right: solid rgb(97, 93, 93);
+  padding-left: 1px;
+}
